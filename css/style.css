@@ -1,0 +1,118 @@
+
+html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: blanchedalmond;
+    color:#632702;
+    background-image: linear-gradient(to right, rgba(247, 184, 25, 0.85), rgba(0, 0, 0, 0.85));
+}
+body{
+    font-size: 1.5rem;
+}
+header{
+
+   text-align: center;
+    align-items: center;
+    padding: 10px 40px 20px 50px;
+    height: 250px;
+    background-image: url("../images/backgroud.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    color: blanchedalmond;
+    margin-left: 50px;
+    
+    
+}
+h1{
+    font-size: 2.7em;
+    margin: 0px;
+}
+h3{
+    font-family: 'Unbounded', cursive;
+    font-variant-caps: all-small-caps;
+}
+main {
+	display: flex;
+	flex-direction:row;
+    
+	
+}
+
+main section {
+	width: 50%;
+	flex-direction: column;
+    padding: 10px 50px 20px 50px;
+}
+main aside {
+    width: 50%;
+   
+    padding: 150px 50px 20px 50px;
+
+	flex-direction: column;
+    
+}
+iframe{
+    position: sticky;
+    top: 150px;
+    
+}
+#first{
+    font-family: 'Unbounded', cursive;
+    font-variant-caps: all-small-caps;
+    
+    
+}
+p{
+    font-family: 'Solitreo', cursive;
+    
+}
+.chorus{
+    
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.rap{
+    font-family: 'Unbounded', cursive;
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.along{
+    font-stretch: extra-expanded;
+    letter-spacing: 50px;
+}
+.far{
+ float: right;
+}
+.grow{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.clarity{
+    text-shadow: 4px 6px 3px rgba(240, 237, 234, 0.948);
+    font-weight: bold; 
+}
+.glow{
+    text-shadow: 4px 6px 3px rgba(227, 101, 55, 0.948);
+    color: blanchedalmond;  
+}
+footer{
+    font-size: small;
+    text-align: end;
+    color: blanchedalmond;   
+}
+
+@media (max-width: 700px){
+    iframe{
+        display: none
+    }
+}
